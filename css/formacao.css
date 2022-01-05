@@ -51,10 +51,16 @@
 }
 
 .faculdade-curso {
+  flex: 1;
   font-size: 1.125rem;
   line-height: 1.4;
   margin-bottom: 40px;
   position: relative;
+}
+
+.faculdade-instituicao {
+  font-size: 1.125rem;
+  color: #a3a3a3;
 }
 
 .faculdade-curso::before {
@@ -65,4 +71,17 @@
   background: linear-gradient(#b6f829, #67dd0a);
   position: absolute;
   left: -24px;
+}
+
+.cursos {
+  margin-bottom: 60px;
+}
+
+.formacao-extra h3 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
 }
