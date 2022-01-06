@@ -145,5 +145,6 @@
   }
   .formacao-extra h3::before {
     position: initial;
+    margin-bottom: 10px;
   }
 }
