@@ -30,3 +30,19 @@
   color: #ffffff;
   text-decoration: none;
 }
+
+.footer-copy {
+  font-size: 1.12rem;
+  color: #8f8f8f;
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    -ms-grid-column: 1fr;
+    gap: 40px;
+  }
+  .footer-contato{
+    font-size: 1.5rem;
+  }
+}
