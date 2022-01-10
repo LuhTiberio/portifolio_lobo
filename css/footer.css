@@ -39,10 +39,10 @@
 
 @media (max-width: 800px) {
   .footer-container {
-    -ms-grid-column: 1fr;
+    grid-column: 1fr;
     gap: 40px;
   }
-  .footer-contato{
+  .footer-contato {
     font-size: 1.5rem;
   }
 }
